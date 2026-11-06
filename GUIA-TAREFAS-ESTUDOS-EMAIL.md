@@ -1016,8 +1016,10 @@ aula com conteúdo e sem título bloqueia ("Dê um título à aula 2 (ou apague 
 - [ ] Marcar aula grava só no arquivo de andamento da pessoa.
 - [ ] As três regras de relatório concluem no momento certo; devolvido → reenviado → volta a "aguardando".
 - [ ] Anexo: lista branca, 25 MB, nome sem caminho, sem sobrescrever, `uid` validado.
-- [ ] Relatório de colega não abre para quem não criou o estudo.
-- [ ] Concluído vai para o arquivo depois de N dias; arquivado não se edita.
+- [ ] Relatório de colega só abre para quem criou o estudo (ou admin/sócio num estudo da equipe).
+- [ ] Botões aprovar/devolver só aparecem para quem pode avaliar.
+- [ ] Estudo da equipe só vai sozinho para o arquivo quando todos concluíram e N dias passaram do
+      último movimento; arquivado não se edita.
 
 ---
 
